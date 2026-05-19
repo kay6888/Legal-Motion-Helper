@@ -1,2 +1,3 @@
 # Legal-Motion-Helper
-Helps write motions for court
+
+Describe what you want, and Legal-Motion-Helper will draft a legal motion to help you request it in court.
