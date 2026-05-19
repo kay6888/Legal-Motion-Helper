@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Motion Helper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <h1>Legal Motion Helper</h1>
+        <p>Draft clearer, court-ready motions with fewer errors.</p>
+      </header>
+
+      <section class="panel">
+        <form id="motion-form" novalidate>
+          <div class="grid">
+            <label>
+              Court Name
+              <input name="courtName" autocomplete="organization" required />
+            </label>
+            <label>
+              Case Number
+              <input name="caseNumber" autocomplete="off" required />
+            </label>
+            <label>
+              Moving Party
+              <input name="partyName" autocomplete="name" required />
+            </label>
+            <label>
+              Opposing Party
+              <input name="opposingParty" autocomplete="name" />
+            </label>
+            <label>
+              Motion Type
+              <select name="motionType" required>
+                <option value="">Select a motion type</option>
+                <option>Motion to Continue</option>
+                <option>Motion to Dismiss</option>
+                <option>Motion to Compel</option>
+                <option>Motion for Summary Judgment</option>
+                <option>Motion for Protective Order</option>
+                <option>Motion in Limine</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Hearing Date (optional)
+              <input name="hearingDate" type="date" />
+            </label>
+          </div>
+
+          <label>
+            Factual Basis
+            <textarea name="factualBasis" rows="5" required></textarea>
+          </label>
+
+          <label>
+            Legal Basis / Authorities (optional)
+            <textarea name="legalBasis" rows="3" placeholder="Rules, statutes, or case law supporting the motion."></textarea>
+          </label>
+
+          <label>
+            Requested Relief
+            <textarea name="reliefRequested" rows="3" required placeholder="Describe exactly what the court should order."></textarea>
+          </label>
+
+          <label>
+            Additional Notes (optional)
+            <textarea name="notes" rows="2"></textarea>
+          </label>
+
+          <div id="validation-errors" class="alert alert--error hidden" role="alert" aria-live="polite"></div>
+          <div id="status" class="alert alert--info hidden" role="status" aria-live="polite"></div>
+
+          <div class="actions">
+            <button id="generate-btn" type="submit">Generate Motion</button>
+            <button id="clear-btn" type="button" class="ghost">Clear</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel output" aria-labelledby="output-title">
+        <div class="output__header">
+          <h2 id="output-title">Draft Output</h2>
+          <div>
+            <button id="copy-btn" type="button" class="ghost" disabled>Copy</button>
+            <button id="download-btn" type="button" class="ghost" disabled>Download .txt</button>
+          </div>
+        </div>
+        <pre id="draft-output" class="draft" tabindex="0">Your generated motion will appear here.</pre>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
