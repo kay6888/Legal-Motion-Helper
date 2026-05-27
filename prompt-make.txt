@@ -1,0 +1,30 @@
+ 
+We are adding a new separate "Courtroom Dictionary" page to our existing Legal Motion app. Please generate the Kotlin/Java code and UI layout changes for the following implementation:
+
+### 1. Top Right Navigation Button
+- Locate our existing top-right menu/action bar where the Settings button resides.
+- Place a new ImageButton or IconButton directly NEXT to the Settings button.
+- Use a standard "book" icon resource (e.g., '@android:drawable/ic_menu_book' or a material design 'book' icon).
+- Set up an onClick listener on this book button to navigate to the new 'CourtroomDictionaryActivity' or 'CourtroomDictionaryFragment'.
+
+### 2. Separate Dictionary Page (UI & Data)
+- Create the UI layout and class file for the new separate Dictionary page.
+- Implement a ListView or RecyclerView to display the legal terms cleanly.
+- Populate the data layer for this page with a collection of these core legal terms:
+    * "Arraignment", "Hearsay", "Pro Se", "Sua Sponte", "Summary Judgment", "Estoppel", "Voir Dire", "Affidavit".
+- Each item in the list must display the term, its category, its formal definition, and a plain-English translation.
+
+### 3. Case Caption Formatter Add-in
+- Create a utility function that takes 'judgeName', 'plaintiffName', and 'defendantName' and outputs this formal caption layout:
+    IN THE COURT OF THE STATE OF [JURISDICTION]
+    [PLAINTIFF], Plaintiff,
+    v. 
+    [DEFENDANT], Defendant.
+    PRESIDING: Hon. [JUDGE]
+
+### 4. Folk-to-Formal Etiquette Processor
+- Implement a text mapping layer that intercepts raw, casual user strings and replaces emotional phrases with formal courtroom etiquette:
+    * "He's lying" -> "The witness's testimony lacks veracity."
+    * "I want to stop this now" -> "The party moves for an immediate stay of proceedings."
+    * "It's not fair" -> "This constitutes a violation of due process."
+- Ensure the finalized text automatically wraps with formal legal phrasing like "May it please the court," and "Respectfully submitted,".

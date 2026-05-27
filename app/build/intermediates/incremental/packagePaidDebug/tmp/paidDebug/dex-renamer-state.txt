@@ -1,0 +1,22 @@
+#Tue May 26 20:35:12 PDT 2026
+path.4=6/classes.dex
+path.3=11/classes.dex
+path.2=10/classes.dex
+path.1=0/classes.dex
+path.6=classes3.dex
+path.5=classes2.dex
+path.0=classes.dex
+base.4=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeProjectDexPaidDebug\\6\\classes.dex
+base.3=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeProjectDexPaidDebug\\11\\classes.dex
+base.2=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeProjectDexPaidDebug\\10\\classes.dex
+base.1=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeProjectDexPaidDebug\\0\\classes.dex
+base.0=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeExtDexPaidDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.6=classes7.dex
+renamed.5=classes6.dex
+base.6=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeExtDexPaidDebug\\classes3.dex
+renamed.4=classes5.dex
+base.5=C\:\\Users\\kayni\\OneDrive\\Desktop\\legalmotion\\app\\build\\intermediates\\dex\\paidDebug\\mergeExtDexPaidDebug\\classes2.dex

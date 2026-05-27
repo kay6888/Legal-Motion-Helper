@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/drawable-xxhdpi_ic_splash.png.flat",
+        "source": "com.legalmotion.app-main-59:/drawable-xxhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/drawable-hdpi_ic_splash.png.flat",
+        "source": "com.legalmotion.app-main-59:/drawable-hdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/drawable-mdpi_ic_splash.png.flat",
+        "source": "com.legalmotion.app-main-59:/drawable-mdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/drawable-xhdpi_ic_splash.png.flat",
+        "source": "com.legalmotion.app-main-59:/drawable-xhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/drawable-xxxhdpi_ic_splash.png.flat",
+        "source": "com.legalmotion.app-main-59:/drawable-xxxhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.legalmotion.app-merged_res-55:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.legalmotion.app-main-59:/mipmap-xhdpi/ic_launcher.png"
+    }
+]
